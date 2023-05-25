@@ -1,0 +1,193 @@
+.mainhead{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  margin-top: 12px ;
+}
+
+.header h1{
+  padding-right: 50px;
+}
+
+.login-page {
+    height:500px;
+    width: 360px;
+    padding: 8% 0 0;
+    margin: 0 auto;
+  }
+.form {
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 20px auto;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+    margin-top: -85px;
+}
+.form input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+.form  input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  input[type="text"]:focus {
+    border: 3px solid #555;
+  }
+  input[type="password"]:focus {
+    border: 3px solid #555;
+  }
+  input[type="submit"] {
+    width: 94%;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #555;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  }
+  
+  input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  body{
+    background-repeat: no-repeat;
+   background-size: cover; 
+  }
+  
+  h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px ;
+  }
+  
+  #btn {
+    cursor: pointer;
+    width: 110px;
+    /* height: 42px; */
+    padding: 8px;
+  }
+  
+  #btn:hover {
+    border: 2px solid black;
+    transition: 0.4s;
+  }
+  
+  a{
+    color: blue;
+  }
+
+
+
+  /* Sellorm CSS */
+  .sf input[type="text"] {
+    width: 94%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    border-radius: 8px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  .sf input[type="descp"] {
+    width: 94%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  .sf input[type="price"] {
+    width: 94%;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  .sf input[type="text"]:focus {
+    border: 3px solid #555;
+  }
+  .sf input[type="descp"]:focus {
+    border: 3px solid #555;
+  }
+  .sf input[type="price"]:focus {
+    border: 3px solid #555;
+  }
+  .sf select:focus{
+    border: 3px solid #555;
+  }
+  .sf input[type="submit"] {
+    width: 94%;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: #555;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    
+  }
+  .sf input[type=text]:focus {
+    border: 3px solid #555;
+  }
+  .sf select{
+    width: 94%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  .sf .login-page{
+    padding-top: 140px;
+  }
+  .sf input[type="submit"]:hover{
+    /* border:  3px solid #ccc !important; */
+    background-color: #ccc;
+    color: black;
+  }
+  .sf input[type=file]{
+    padding-top: 15px;
+    font-size: small;
+  }
+  .sf .cfile{
+    font-size: medium;
+    font-weight: 500;
+    padding-bottom: 14px;
+  }

@@ -1,0 +1,25 @@
+.navbar{
+    position: sticky;
+    top:0;
+    z-index: 2;
+    opacity: 0.95;
+}
+
+/* .card{
+    z-index: -1;
+} */
+.header1{
+    font-family: 'Samartan';
+    font-size: 80px;
+    margin: 0px 20px;
+}
+.fab-item{
+    width: 91px !important;
+    border-radius: 40px !important;
+}
+
+
+@font-face {
+    font-family: Samartan;
+    src: url(SAMARN__.TTF);
+  }
