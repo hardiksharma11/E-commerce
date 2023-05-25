@@ -34,13 +34,13 @@ function Navbar() {
                 <Link className="nav-link" to="./Login">Login</Link>
               </li>
               <li className="nav-item">
-                <form action="../../backend/Logout" method="post">
+                <form action="https://ecommerce-backend-uktt.onrender.com/backend/Logout" method="post">
                   <input type="submit" value="LogOut" id="logout1" />
                   {/* <input type = "submit" className="nav-link" to="./Logout">Logout</input> */}
                 </form>
               </li>
             </ul>
-            <form className="d-flex" action = "../../backend/category" method = "post">
+            <form className="d-flex" action = "https://ecommerce-backend-uktt.onrender.com/backend/category" method = "post">
 
               <select name="category" className="navbarcat" id="cat" placeholder="Category">
                 <option value="none">All Categories</option>

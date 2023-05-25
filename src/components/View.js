@@ -24,7 +24,7 @@ function View(props) {
 						<h6>Contact Number : {data?data.phone:"Data not available"}</h6>
 						<h6>Email : {data? data.email:"Data not available"}</h6> 
 					</div>
-						<form action="../../backend/buyitem" method="post">
+						<form action="https://ecommerce-backend-uktt.onrender.com/backend/buyitem" method="post">
 							<button type="submit" className="btn btn-dark">Buy Now!</button>
 						</form>
 					<div>

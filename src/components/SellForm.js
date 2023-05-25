@@ -15,7 +15,7 @@ function SellForm() {
         </div>
         <div className="login-page">
           <div className="form">
-            <form method="post" action="../../backend/additem">
+            <form method="post" action="https://ecommerce-backend-uktt.onrender.com/backend/additem">
                 <input type="text" name="itemname" placeholder="Item Name" autocomplete="off" required />
                 <br />
                 <br />

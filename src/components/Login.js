@@ -15,7 +15,7 @@ function Login() {
         </div>
         <div className="login-page">
           <div className="form">
-            <form method="post" action="../../backend/login">
+            <form method="post" action="https://ecommerce-backend-uktt.onrender.com/backend/login">
               <input type="text" name="userid" placeholder="User Name" required />
               <br />
               <br />

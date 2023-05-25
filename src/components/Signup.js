@@ -9,7 +9,7 @@ function Signup() {
       </div>
       <div className="login-page">
         <div className="form">
-          <form method="post" action="../../backend/signup">
+          <form method="post" action="https://ecommerce-backend-uktt.onrender.com/backend/signup">
             <input type="text" name="name" placeholder="Name" required />
             <br />
             <input type="text" name="userid" placeholder="UserID" required />
