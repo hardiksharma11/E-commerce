@@ -11,7 +11,7 @@ export class Drop extends Component{
     }
 
     async componentDidMount() {
-        let url = 'http://localhost:8080/getfields';
+        let url = 'https://ecommerce-backend-uktt.onrender.com/getfields';
         let data = await fetch(url);
         let parsedData = await data.json();
         console.log(parsedData);

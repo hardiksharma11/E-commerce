@@ -11,7 +11,7 @@ export class FreshItems extends Component {
     }
 
     async componentDidMount() {
-        let url = 'http://localhost:8080/getproducts';
+        let url = 'https://ecommerce-backend-uktt.onrender.com/getproducts';
         let data = await fetch(url);
         let parsedData = await data.json();
         console.log(parsedData);
