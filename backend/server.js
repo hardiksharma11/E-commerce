@@ -2,7 +2,6 @@ const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const mysql = require('mysql2');
-const { redirect } = require("react-router-dom");
 const path = require("path")
 const cors = require("cors");
 var nodemailer = require('nodemailer');
