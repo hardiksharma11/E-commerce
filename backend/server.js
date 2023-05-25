@@ -39,10 +39,10 @@ var mailOptions = {
 };
 
 let con = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'hardik'
+  host: 'sql12.freesqldatabase.com',
+    user: 'sql12621307',
+    password: 'dv8kME7xFC',
+    database: 'sql12621307'
 });
 
 
