@@ -40,9 +40,9 @@ var mailOptions = {
 
 let con = mysql.createConnection({
   host: 'sql12.freesqldatabase.com',
-    user: 'sql12621307',
-    password: 'dv8kME7xFC',
-    database: 'sql12621307'
+    user: 'sql12624323',
+    password: '7CVNKK1ass',
+    database: 'sql12624323'
 });
 
 
